@@ -9,33 +9,34 @@
         rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css" />
     <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/main.min.css">
 </head>
 
 <body class="body">
     <header class="header">
-        <div class="container">
+        <div class="container header__container">
             <nav class="nav">
                 <a href="./index.html" class="logo">
                     <span class="akcent">Web</span>Studio
                 </a>
-                <ul class="site-nav list">
-                    <li class="item"><a href="./index.html" class="link current">Студия</a></li>
-                    <li class="item"><a href="./portfolio.html" class="link">Портфолио</a></li>
-                    <li class="item"><a href="" class="link">Контакты</a></li>
+                <ul class="nav__list list">
+                    <li class="nav__item"><a href="./index.html" class="nav__link nav__link--current">Студия</a></li>
+                    <li class="nav__item"><a href="./portfolio.html" class="nav__link">Портфолио</a></li>
+                    <li class="nav__item"><a href="" class="nav__link">Контакты</a></li>
                 </ul>
             </nav>
             <ul class="contacts list">
-                <li class="item">
-                    <a href="mailto:info@devstudio.com" class="mail-header">
-                        <svg class="header-icon" width="16" height="12">
+                <li class="contacts__item">
+                    <a href="mailto:info@devstudio.com" class="header__mail">
+                        <svg class="header__icon" width="16" height="12">
                             <use href="./images/svg/icons.svg#icon-envelope"></use>
                         </svg>
                         info@devstudio.com
                     </a>
                 </li>
-                <li class="item">
-                    <a href="tel:+380961111111" class="tel-header">
-                        <svg class="header-icon" width="10" height="16">
+                <li class="contacts__item">
+                    <a href="tel:+380961111111" class="header__tel">
+                        <svg class="header__icon" width="10" height="16">
                             <use href="./images/svg/icons.svg#icon-smartphone"></use>
                         </svg>
                         +38 096 111 11 11
@@ -55,41 +56,41 @@
             <div class="container">
                 <h2 class="section-title visually-hidden">Наши особенности</h2>
                 <ul class="features list">
-                    <li class="item">
-                        <div class="bcg-icon">
-                            <svg class="features-icon">
+                    <li class="features__item">
+                        <a class="features__link">
+                            <svg class="features__icon">
                                 <use href="./images/svg/icons.svg#icon-antenna"></use>
                             </svg>
-                        </div>
-                        <h3 class="features-title">Внимание к деталям</h3>
-                        <p class="features-text">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
+                        </a>
+                        <h3 class="features__title">Внимание к деталям</h3>
+                        <p class="features__text">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
                     </li>
-                    <li class="item">
-                        <div class="bcg-icon">
-                            <svg class="features-icon">
+                    <li class="features__item">
+                        <a class="features__link">
+                            <svg class="features__icon">
                                 <use href="./images/svg/icons.svg#icon-clock"></use>
                             </svg>
-                        </div>
-                        <h3 class="features-title">Пунктуальность</h3>
-                        <p class="features-text">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p> 
+                        </a>
+                        <h3 class="features__title">Пунктуальность</h3>
+                        <p class="features__text">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p> 
                     </li>
-                    <li class="item">
-                        <div class="bcg-icon">
-                            <svg class="features-icon">
+                    <li class="features__item">
+                        <a class="features__link">
+                            <svg class="features__icon">
                                 <use href="./images/svg/icons.svg#icon-diagram"></use>
                             </svg>
-                        </div>
-                        <h3 class="features-title">Планирование</h3>
-                        <p class="features-text">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
+                        </a>
+                        <h3 class="features__title">Планирование</h3>
+                        <p class="features__text">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
                     </li>
-                    <li class="item">
-                        <div class="bcg-icon">
-                            <svg class="features-icon">
+                    <li class="features__item">
+                        <a class="features__link">
+                            <svg class="features__icon">
                                 <use href="./images/svg/icons.svg#icon-astronaut"></use>
                             </svg>
-                        </div>
-                        <h3 class="features-title">Современные технологии</h3>
-                        <p class="features-text">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
+                        </a>
+                        <h3 class="features__title">Современные технологии</h3>
+                        <p class="features__text">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
                     </li>
                 </ul>
             </div>
@@ -288,44 +289,44 @@
             <div class="container">
                 <h2 class="section-title">Постоянные клиенты</h2>
                 <ul class="clients list">
-                    <li class="clients-item">
-                        <a class="clients-link" href="">
-                            <svg class="clients-icon" width="106" height="60">
+                    <li class="clients__item">
+                        <a class="clients__link" href="">
+                            <svg class="clients__icon" width="106" height="60">
                                 <use href="./images/svg/icons.svg#icon-Logo1"></use>
                             </svg>
                         </a>
                     </li>
-                    <li class="clients-item">
-                        <a class="clients-link" href="">
-                            <svg class="clients-icon" width="106" height="60">
+                    <li class="clients__item">
+                        <a class="clients__link" href="">
+                            <svg class="clients__icon" width="106" height="60">
                                 <use href="./images/svg/icons.svg#icon-Logo2"></use>
                             </svg>
                         </a>
                     </li>
-                    <li class="clients-item">
-                        <a class="clients-link" href="">
-                            <svg class="clients-icon" width="106" height="60">
+                    <li class="clients__item">
+                        <a class="clients__link" href="">
+                            <svg class="clients__icon" width="106" height="60">
                                 <use href="./images/svg/icons.svg#icon-Logo3"></use>
                             </svg>
                         </a>
                     </li>
-                    <li class="clients-item">
-                        <a class="clients-link" href="">
-                            <svg class="clients-icon" width="106" height="60">
+                    <li class="clients__item">
+                        <a class="clients__link" href="">
+                            <svg class="clients__icon" width="106" height="60">
                                 <use href="./images/svg/icons.svg#icon-Logo4"></use>
                             </svg>
                         </a>
                     </li>
-                    <li class="clients-item">
-                        <a class="clients-link" href="">
-                            <svg class="clients-icon" width="106" height="60">
+                    <li class="clients__item">
+                        <a class="clients__link" href="">
+                            <svg class="clients__icon" width="106" height="60">
                                 <use href="./images/svg/icons.svg#icon-Logo5"></use>
                             </svg>
                         </a>
                     </li>
-                    <li class="clients-item">
-                        <a class="clients-link" href="">
-                            <svg class="clients-icon" width="106" height="60">
+                    <li class="clients__item">
+                        <a class="clients__link" href="">
+                            <svg class="clients__icon" width="106" height="60">
                                 <use href="./images/svg/icons.svg#icon-Logo6"></use>
                             </svg>
                         </a>
@@ -343,13 +344,13 @@
                 <address class="address">
                     <p class="location">г. Киев, пр-т Леси Украинки, 26</p>
                     <ul class="contacts list">
-                        <li class="item"><a href="mailto:info@devstudio.com" class="mail-footer">info@devstudio.com</a></li>
-                        <li class="item"><a href="tel:+380961111111" class="tel-footer">+38 096 111 11 11</a></li>
+                        <li class="contacts__item"><a href="mailto:info@devstudio.com" class="footer-mail">info@devstudio.com</a></li>
+                        <li class="contacts__item"><a href="tel:+380961111111" class="footer-tel">+38 096 111 11 11</a></li>
                     </ul>
                 </address>
             </div>
             <div class="part">
-                <h2 class="social-title">присоединяйтесь</h2>
+                <h2 class="part-title">присоединяйтесь</h2>
                 <ul class="social list">
                     <li class="social-item">
                         <a class="social-link link" href="" target="_blank" rel="noopener noreferrer" aria-label="иконка instagram">
@@ -382,7 +383,7 @@
                 </ul>
             </div>
             <div class="part">
-                <h2 class="social-title">Подпишитесь на рассылку</h2>
+                <h2 class="part-title">Подпишитесь на рассылку</h2>
                 <div class="form-field">
                     <label class="form-label"></label>
                     <input class="form-input" type="email" name="mail" placeholder="E-mail" />

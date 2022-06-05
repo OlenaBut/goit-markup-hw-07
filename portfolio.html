@@ -10,33 +10,34 @@
         rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css" />
     <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/main.min.css">
 </head>
 
 <body class="body">
     <header class="header">
-        <div class="container">
+        <div class="container header__container">
             <nav class="nav">
                 <a href="./index.html" class="logo">
                     <span class="akcent">Web</span>Studio
                 </a>
-                <ul class="site-nav list">
-                    <li class="item"><a href="./index.html" class="link">Студия</a></li>
-                    <li class="item"><a href="./portfolio.html" class="link current">Портфолио</a></li>
-                    <li class="item"><a href="" class="link">Контакты</a></li>
+                <ul class="nav__list list">
+                    <li class="nav__item"><a href="./index.html" class="nav__link">Студия</a></li>
+                    <li class="nav__item"><a href="./portfolio.html" class="nav__link nav__link--current">Портфолио</a></li>
+                    <li class="nav__item"><a href="" class="nav__link">Контакты</a></li>
                 </ul>
             </nav>
             <ul class="contacts list">
-                <li class="item">
-                    <a href="mailto:info@devstudio.com" class="mail-header">
-                        <svg class="header-icon" width="16" height="12">
+                <li class="contacts__item">
+                    <a href="mailto:info@devstudio.com" class="header__mail">
+                        <svg class="header__icon" width="16" height="12">
                             <use href="./images/svg/icons.svg#icon-envelope"></use>
                         </svg>
                         info@devstudio.com
                     </a>
                 </li>
-                <li class="item">
-                    <a href="tel:+380961111111" class="tel-header">
-                        <svg class="header-icon" width="10" height="16">
+                <li class="contacts__item">
+                    <a href="tel:+380961111111" class="header__tel">
+                        <svg class="header__icon" width="10" height="16">
                             <use href="./images/svg/icons.svg#icon-smartphone"></use>
                         </svg>
                         +38 096 111 11 11
@@ -233,13 +234,13 @@
                 <address class="address">
                     <p class="location">г. Киев, пр-т Леси Украинки, 26</p>
                     <ul class="contacts list">
-                        <li class="item"><a href="mailto:info@devstudio.com" class="mail-footer">info@devstudio.com</a></li>
-                        <li class="item"><a href="tel:+380961111111" class="tel-footer">+38 096 111 11 11</a></li>
+                        <li class="contacts__item"><a href="mailto:info@devstudio.com" class="footer-mail">info@devstudio.com</a></li>
+                        <li class="contacts__item"><a href="tel:+380961111111" class="footer-tel">+38 096 111 11 11</a></li>
                     </ul>
                 </address>
             </div>
             <div class="part">
-                <h2 class="social-title">присоединяйтесь</h2>
+                <h2 class="part-title">присоединяйтесь</h2>
                 <ul class="social list">
                     <li class="social-item">
                         <a class="social-link link" href="" target="_blank" rel="noopener noreferrer"
@@ -276,7 +277,7 @@
                 </ul>
             </div>
             <div class="part">
-                <h2 class="social-title">Подпишитесь на рассылку</h2>
+                <h2 class="part-title">Подпишитесь на рассылку</h2>
                 <div class="form-field">
                     <label for="mail" class="form-label"></label>
                     <input class="form-input" type="email" name="mail" id="mail" placeholder="E-mail" />
